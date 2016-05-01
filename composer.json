@@ -1,0 +1,17 @@
+{
+    "name": "rajuthpapa8086/validator",
+    "description": "A simple easy-to-use form validator.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "rajuthapa8086",
+            "email": "raju.thapa.8086@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
