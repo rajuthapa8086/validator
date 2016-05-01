@@ -16,7 +16,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "RajuThapa8086\\Validator": "./src/"
+            "RajuThapa8086\\Validator\\": "./src/"
         }
     }
 }
