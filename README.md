@@ -15,6 +15,8 @@ composer require rajuthapa8086/validator
 
 require 'vendor/autoload.php';
 
+use RajuThapa8086\Validator\Validator as Validator;
+
 $validator = new Validator();
 
 $rules = array(
@@ -26,7 +28,7 @@ $rules = array(
 
 $inputs = array(
 	'username' => 'as##ASAAS',
-    'password' => 'aaa000a0a0s'
+    'password' => 'aaa000a0a0s',
     'confirm_password' => 'asasas0as0d0as0d0as',
 );
 
@@ -49,6 +51,6 @@ $errors = $validator->run($rules, $inputs);
     <li><?php echo $error[0]; ?></li>
     <?php endforeach; ?>
 </ul>
-<?php endif: ?>
+<?php endif; ?>
 
 ```
