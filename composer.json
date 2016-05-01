@@ -13,5 +13,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RajuThapa8086\\Validator": "./src/"
+        }
+    }
 }
